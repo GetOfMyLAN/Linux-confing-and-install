@@ -1,0 +1,30 @@
+sw_volume: 92
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: pause
+current: 9
+time: 75.453000
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:The Book Of Mormon/00001-Hello!.m4a
+1:The Book Of Mormon/00002-Two By Two.m4a
+2:The Book Of Mormon/00003-You and Me (But Mostly Me).m4a
+3:The Book Of Mormon/00004-Hasa Diga Eebowai.m4a
+4:The Book Of Mormon/00005-Turn It Off.m4a
+5:The Book Of Mormon/00007-All-American Prophet.m4a
+6:The Book Of Mormon/00008-Sal Tlay Ka Siti.m4a
+7:The Book Of Mormon/00009-Man Up.m4a
+8:The Book Of Mormon/00010-Making Things Up Again.m4a
+9:The Book Of Mormon/00011-Spooky Mormon Hell Dream.m4a
+10:The Book Of Mormon/00012-I Believe.m4a
+11:The Book Of Mormon/00013-Baptize Me.m4a
+12:The Book Of Mormon/00014-I Am Africa.m4a
+13:The Book Of Mormon/00015-Joseph Smith American Moses.m4a
+14:The Book Of Mormon/00016-Tomorrow Is a Latter Day.m4a
+playlist_end
