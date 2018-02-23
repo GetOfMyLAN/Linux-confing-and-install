@@ -4,6 +4,10 @@ I made a script to install my configs and programs on diffrent linux OS's. So...
 ```bash
 git clone https://github.com/GetOfMyLAN/Linux-confing-and-install.git
 ```
+then run the script for you OS Eg.
+```bash
+bash archinstall.sh
+```
 ## Working OS's
 * Arch
 ## OS's In Dev
@@ -12,4 +16,6 @@ git clone https://github.com/GetOfMyLAN/Linux-confing-and-install.git
 * Gentoo
 * Slackware
 * Void
+* Fedora
+* 
 
