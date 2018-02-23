@@ -10,5 +10,4 @@ cd yaourt
 makepkg -si
 cd ..
 rm package-query yaourt
-yaourt -S --noconfirm sc-im waterfox-bin neofetch polybar-git light oomox numix-icon-theme-git speedometer tor-browser-en i3lock-fancy-git newsbeuter-git bash-pipes
-bash confinstall.sh
+yaourt -S --noconfirm sc-im waterfox-bin neofetch polybar-git light oomox numix-icon-theme-git speedometer tor-browser-en i3lock-fancy-git newsbeuter-git bash-pipes:
