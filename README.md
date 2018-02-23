@@ -17,5 +17,3 @@ bash archinstall.sh
 * Slackware
 * Void
 * Fedora
-* 
-
