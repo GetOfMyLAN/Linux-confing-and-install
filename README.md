@@ -10,9 +10,9 @@ bash archinstall.sh
 ```
 ## Working OS's
 * Arch
-## OS's In Dev
 * Ubuntu
 * Debian
+## OS's In Dev
 * Gentoo
 * Slackware
 * Void
