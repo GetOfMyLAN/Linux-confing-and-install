@@ -1,0 +1,3 @@
+URxvt.scrollBar: false
+URxvt.perl-lib: /usr/lib/urxvt/perl/
+Urxvt.perl-ext-common: ....font-size
