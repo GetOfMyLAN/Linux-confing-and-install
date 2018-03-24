@@ -146,7 +146,7 @@ bindsym $mod+Shift+m gaps outer current minus 5
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 #Add wallpaper:
 exec_always --no-startup-id feh --bg-scale ~/.config/wall.png
-exec_always --no-startup-id wal -g -c -i ~/.config/wall.png -a 80
+exec_always --no-startup-id wal -g -c -i ~/.config/wall.png -a 70
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
@@ -186,6 +186,6 @@ client.background       $bg
 bindsym $mod+t exec waterfox
 bindsym $mod+y exec urxvt -e ranger
 bindsym $mod+u exec urxvt -e ncmpcpp
-bindsym $mod+i exec urxvt -e nvim
+bindsym $mod+i exec urxvt -e vim
 bindsym $mod+o exec urxvt -e htop
 bindsym $mod+p exec urxvt -e calcurse
