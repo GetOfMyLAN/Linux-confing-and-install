@@ -12,7 +12,6 @@ bash archinstall.sh
 * Arch
 * Ubuntu
 * Debian
-## OS's In Dev
 * Gentoo
 * Slackware
 * Void
