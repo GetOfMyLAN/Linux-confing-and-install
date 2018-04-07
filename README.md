@@ -4,10 +4,11 @@ I made a script to install my configs and programs on diffrent linux OS's. So...
 ```bash
 git clone https://github.com/GetOfMyLAN/Linux-confing-and-install.git
 ```
-then run the script for you OS Eg.
+then run the script and go along with the dialog options
 ```bash
-bash archinstall.sh
+bash install.sh
 ```
+WARNING so far I have not made installers for the os you chose (so it won't install arch for you) but that is a soon feature
 ## Working OS's
 * Arch
 * Ubuntu
