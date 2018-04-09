@@ -9,29 +9,16 @@ os=$(dialog --backtitle "OS" \
 				5 Slackware off \
 				6 Void off \
 				7 Fedora off 3>&1 1>&2 2>&3 3>&1)
-
-programs=$(dialog --backtitle "What programs"\
-	--checklist "What programs do you want" 20 80 10\
-		1 "base(i3wm, mpv etc)" on\
-		2 "Graphic Programs" off\
-		3 "Music Programs" off\
-		4 "Server (LAMP and MEAN)" off\
-		5 "Programing Stuff" off\
-		6 "Vim Config" off\
-		7 "Config" off\
-		8 "Gaming" off\
-		9 "Office" off\
-		10 "My Programs and Programing Progrects" off 3>&1 1>&2 2>&3 3>&1)
 clear
 if [ $os -eq 1 ]
 	then
 		echo Beging install for Arch
 elif [ $os -eq 2 ]
 	then
-		echo Beging install for ubuntu
+		echo Beging install for Ubuntu
 elif [ $os -eq 3 ]
   then
-    echo Beging install for debian
+    echo Beging install for Debian
 elif [ $os -eq 4 ]
 	then
 		echo Begin isntall for Gentoo
