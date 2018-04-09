@@ -34,12 +34,16 @@ elif [ $os -eq 3 ]
     echo Beging install for debian
 elif [ $os -eq 4 ]
 	then
-	echo Begin isntall for Gentoo
+		echo Begin isntall for Gentoo
 elif [ $os -eq 5 ]
-	ehco Begin install for Slackware
+	then
+		echo Begin install for Slackware
 elif [ $os -eq 6 ]
-	echo Begin install for Void
+	then
+		echo Begin install for Void
 elif [ $os -eq 7 ]
-	echo Begin install for Fedora
+	then
+		echo Begin install for Fedora
 else
 	echo There has been an error
+fi
