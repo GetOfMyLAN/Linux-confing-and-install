@@ -17,3 +17,62 @@ WARNING so far I have not made installers for the os you chose (so it won't inst
 * Slackware
 * Void
 * Fedora
+
+
+## Programs installed
+
+### Base
+* i3
+* polybar
+* vim
+* pywal
+* feh
+* rofi
+* wallpaperchanger
+* mpd
+* ncmpcpp
+* qutebrowser
+* ranger
+* calcurse
+* htop
+* mpv
+* transmisson-cli
+* Network manger
+### Social Media
+* console chatter
+* irsse
+*
+### Office
+* Libreoffice
+* R markdown
+* pandoc
+### Graphics
+* GIMP
+* Krita
+* Inkscapre
+* kdenlive
+### Music
+* LMMS
+* Musescore
+* Audacity
+### Coding
+* nodejs
+* LAMP sever
+* ruby and rubyonrails
+* waterfox
+### Configs
+* adds my configs
+### Vidya
+* steam
+* wine
+### Little Goddies
+* SDDM
+* TOR
+* Numix Icon Theme
+* neofetch
+* bleachbit
+* arc gtk theme
+* bash-pipes
+* asscii-acurem
+* youtube-dl
+* youtube-veiwer
