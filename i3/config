@@ -149,16 +149,15 @@ exec_always --no-startup-id feh --bg-scale ~/.config/wall.png
 exec_always --no-startup-id wal -g -c -i ~/.config/wall.png -a 70
 exec_always --no-startup-id bash ~/.config/wallpaperchanger/launch.sh
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
-
+bindsym XF86AudioRaiseVolume exec --no-startup-id pulsemixer --change-volume +5 
+bindsym XF86AudioLowerVolume exec --no-startup-id pulsemixer --change-volume -5
+bindsym XF86AudioMute exec --no-startup-id pulsemixer --toggle-mute
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec light -A 10 # increase screen brightness
 bindsym XF86MonBrightnessDown exec light -U 10 # decrease screen brightness
 
 # Touchpad controls
-exec_always --no-startup-id xinput set-prop 11 295 1, 1, 1, 1, 1, 1, 1 # toggle touchpad
+exec_always --no-startup-id xinput set-prop 11 296 1, 1, 1, 1, 1, 1, 1 # toggle touchpad
 
 # Media player controls
 bindsym XF86AudioPlay exec mpc toggle
