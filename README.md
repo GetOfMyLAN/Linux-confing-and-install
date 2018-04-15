@@ -38,10 +38,6 @@ WARNING so far I have not made installers for the os you chose (so it won't inst
 * mpv
 * transmisson-cli
 * Network manger
-### Social Media
-* console chatter
-* irsse
-*
 ### Office
 * Libreoffice
 * R markdown
