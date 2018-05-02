@@ -12,7 +12,16 @@ os=$(dialog --backtitle "OS" \
 clear
 if [ $os -eq 1 ]
 	then
+		# INSTALL YAOURT ON ARCH
 		echo Beging install for Arch
+		git clone https://aur.archlinux.org/package-query.git
+		cd package-query
+		makepkg -si
+		git clone https://aur.archlinux.org/yaourt.git
+		cd yaourt
+		makepkg -si
+		cd .. && cd ..
+		rm -rf package-query
 elif [ $os -eq 2 ]
 	then
 		echo Beging install for Ubuntu
