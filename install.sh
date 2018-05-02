@@ -6,9 +6,9 @@ os=$(dialog --backtitle "OS" \
         2 Ubuntu off \
         3 Debian off \
         4 Gentoo off \
-				5 Slackware off \
-				6 Void off \
-				7 Fedora off 3>&1 1>&2 2>&3 3>&1)
+	5 Slackware off \
+	6 Void off \
+	7 Fedora off 3>&1 1>&2 2>&3 3>&1)
 clear
 if [ $os -eq 1 ]
 	then
