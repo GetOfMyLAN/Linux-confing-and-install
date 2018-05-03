@@ -18,10 +18,8 @@ WARNING so far I have not made installers for the os you chose (so it won't inst
 * Void
 * Fedora
 
-
 ## Programs installed
 
-### Base
 * i3
 * polybar
 * vim
@@ -38,31 +36,24 @@ WARNING so far I have not made installers for the os you chose (so it won't inst
 * mpv
 * transmisson-cli
 * Network manger
-### Office
 * Libreoffice
 * R markdown
 * pandoc
-### Graphics
+* LaTeX
 * GIMP
 * Krita
 * Inkscapre
 * kdenlive
-### Music
 * LMMS
 * Musescore
 * Audacity
-### Coding
 * nodejs
 * LAMP sever
 * ruby and rubyonrails
 * waterfox
-### Configs
-* adds my configs
-### Vidya
+* Configs
 * steam
 * wine
-### Little Goddies
-* SDDM
 * TOR
 * Numix Icon Theme
 * neofetch
