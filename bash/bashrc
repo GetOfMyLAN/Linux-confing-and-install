@@ -1,1 +1,30 @@
+#
+# ~/.bashrc
+#
 
+# If not running interactively, don't do anything
+set -o vi
+[[ $- != *i* ]] && return
+
+export LANG=en_AU.UTF-8
+export LANGUAGE=en_AU:en_US.UTF-8
+alias ls='ls --color=auto'
+export PS1="\[$(tput bold)\]\[$(tput setaf 4)\][\[$(tput setaf 5)\]\u\[$(tput setaf 4)\]@\[$(tput setaf 5)\]\h \[$(tput setaf 2)\]\W\[$(tput setaf 4)\]]\\$ \[$(tput sgr0)\]"
+alias music="ncmpcpp"
+alias clock="ncmpcpp -s clock"
+alias visualizer="ncmpcpp -s visualizer"
+alias news="newsboat"
+alias email="neomutt"
+alias files="ranger"
+alias chat="weechat"
+alias audio="ncpamixer"
+alias calender="calcurse"
+alias v="vim"
+alias g="git"
+alias l="ls"
+alias c="cd"
+# Import the colors.
+. "${HOME}/.cache/wal/colors.sh"
+alias e="exit"
+# Create the alias.
+alias dmen='dmenu_run -nb "$color0" -nf "$color15" -sb "$color1" -sf "$color15"'
