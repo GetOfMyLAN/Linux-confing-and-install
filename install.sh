@@ -22,6 +22,7 @@ if [ $os -eq 1 ]
 		makepkg -si
 		cd .. && cd ..
 		rm -rf package-query
+		sudo pacman -S git rust python php nodejs npm ranger openssh openvpn imagemagick youtube-dl mpd mpc ncmpcpp feh mupdf r compton transmission-cli texlive-most neomutt chromium qutebrowse gimp blender weechat rofi
 elif [ $os -eq 2 ]
 	then
 		echo Beging install for Ubuntu
